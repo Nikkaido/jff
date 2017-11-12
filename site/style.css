@@ -1,0 +1,46 @@
+@font-face {
+font-family: "lobster"; 
+src: url("./fonts/lobster.ttf"); 
+
+} 
+*{
+	font-family: lobster;
+	margin:0;
+	padding:0;
+}
+.wraper{
+	max-width: 1140px;
+	margin:0 auto;
+}
+.logo{
+	font-size: 50px;
+	float: left;
+		color:white;
+}
+.nav{
+	background-color: #876fec;
+	opacity: 20%;
+	height: 75px;
+}
+.nav ul{
+		display: inline-block;
+	}
+ul>li{
+	list-style-type:none;
+	display: inline-block;
+	margin-top:30px;
+	font-size:20px;
+	margin-left: 20px;
+
+}
+li>a{
+	text-decoration:none;
+		color:white;
+}
+.info{
+	float: right;
+	margin-top: 15px;
+}
+.email{
+	margin-top: 15px;
+}
