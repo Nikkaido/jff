@@ -187,3 +187,56 @@ input[type="text"]{
 .how-work{
 	background-color:#081d1e;
 }
+.how-work h2{
+	position: absolute;
+	margin: -61px 0 0 40.5%;
+	font-size: 35px;
+}
+.line div p{
+	color:white;
+	margin-top: 10px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+.line div img{
+	width: 50px;
+	height: 50px;
+/*	position: relative;
+	left: 135px;*/
+}
+.line div{
+	margin-top: 50px;
+	width: 300px;
+	display:inline-flex;
+	justify-content: space-around;
+	margin-left: 65px;
+	flex-wrap:wrap;
+}
+.four{
+	padding-left: 170px;
+}
+.btn-work{
+	background-color: white;
+	margin: -10px 0px 0px 235%;
+}
+/*--------------------footer--------------------------*/
+.footer{
+	background-color: black;
+	height: 100px;
+}
+.email-foot{
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.number-foot{
+	margin-left: 15px;
+	padding-top:20px;
+}
+.email-foot a, .number-foot a{
+	color:white;
+	text-decoration: none;
+}
+.copy{
+	color:white;
+	margin: 0 0 0 46.4%;
+}
