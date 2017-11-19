@@ -2,14 +2,16 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="style.css">
-
+		<link rel="stylesheet" href="animate.css">
+		<script src="./wow.js"></script>
 	</head>
 	<body>
+		
 		<header>
 			<nav class="nav">
 				<div class="wraper">
-					<div class="logo">fratres</div>
-					<ul>
+					<div class="logo wow fadeInUp">fratres</div>
+					<ul class="wow fadeInUp">
 						<li>
 							<a href="#">контакты</a>
 						</li>
@@ -20,7 +22,7 @@
 							<a href="3">как работаем</a>
 						</li>
 					</ul>
-					<div class="info">
+					<div class="info wow fadeInUp">
 						<div class="number">
 							<img src="" alt="">
 							<a href="#">+7(705)-410-89-32</a>
@@ -32,11 +34,11 @@
 					</div>
 				</div>
 			</nav>
-			<div class="background wraper clearfix">
-				<div class="desk">
+			<div class="background wraper clearfix wow fadeInUp">
+				<div class="desk wow slideInLeft">
 					<h1>Красивые и качественные изделия для вашего дома</h1>
 				</div>
-				<div class="application">
+				<div class="application wow slideInRight">
 					<p>перезвонить вам!</p>
 					<form action="order.php">
 						<label for="name">Введите ваше имя</label><br>
@@ -51,7 +53,8 @@
 				<img src="./images/arrow-btn.png" alt="">
 			</div>
 		</header>
-		<section class="catalog">
+		<section class="catalog wow slideInLeft"
+		data-wow-duration="1s" data-wow-delay="1s">
 			<h2>Каталог</h2>
 				<div class="bg-cat">
 					<div class="wraper flex-cat">
@@ -67,14 +70,16 @@
 					</div>
 				</div>
 		</section>
-		<section class="about-us">
+		<section class="about-us wow slideInRight"
+		data-wow-duration="1s" data-wow-delay="1s">
 			<h2>О нас</h2>
 			<div class="us-bg">
 				<p class="wraper">Lorem Ipsum is simply dummy text of the printing <br>and typesetting industry. <br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br> when an unknown printer took a galley of type and scrambled it to make <br>a type specimen book. It has survived not only five centuries, but also the leap into electronic <br>	 typesetting, remaining essentially unchanged. It was popularised in the 1960s with</p>
 			</div>
 		</section>
 
-		<section class="how-work">
+		<section class="how-work wow slideInLeft"
+		data-wow-duration="1s" data-wow-delay="1s">
 			<h2>как мы работаем</h2>
 			<div class="wraper line">
 				<div class="one">
@@ -102,7 +107,8 @@
 				</div>
 			</div>
 		</section>
-		<footer class="footer">
+		<footer class="footer wow slideInRight"
+		data-wow-duration="1s" data-wow-delay="1s">
 			<div class="wraper">
 				<div class="info-foot">
 					<div class="number-foot">
@@ -120,6 +126,9 @@
 				<div class="copy">fratres 2017</div>
 			</div>
 		</footer>
+		<script>
+              new WOW().init();
+        </script>
 		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 	</body>
 </html>
